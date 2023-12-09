@@ -118,3 +118,25 @@ main a{
     color: #FCA311;
     
 }
+#icone{
+    position: absolute;
+    top: 210px;
+}
+#menu{
+    background-color: black;
+    position: absolute;
+    left: 40px;
+    top: 210px;
+    overflow: hidden;
+    width: 0;
+}
+
+#icone svg{
+    color: white;
+    cursor: pointer;
+}
+
+.show{
+    transition: 1s;
+    opacity: 1;
+}
