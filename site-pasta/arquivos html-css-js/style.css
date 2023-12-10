@@ -129,6 +129,7 @@ main a{
     top: 210px;
     overflow: hidden;
     width: 0;
+    height: 0;
 }
 
 #icone svg{
@@ -139,4 +140,11 @@ main a{
 .show{
     transition: 1s;
     opacity: 1;
+    width: 400px;
+    height: 25px;
+}
+
+.hide{
+    transform: 1s;
+    height: 0;
 }

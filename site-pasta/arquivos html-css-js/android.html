@@ -24,9 +24,10 @@
         <!-- interface de navegação do header -->
         <div id="spanheader">
             
-            <nav>
+            <nav >
                 <div id="icone">
-                    <a href="#"><i class="fa-solid fa-bars"></i></a></div>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
                 
                 <div id="menu">
                     
@@ -95,7 +96,14 @@
         <p> Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre o sistema Android e seu simpático mascote.</p>
     </main>
     <footer></footer>
-    <script src="myscript.js"></script>
+    <script src="myscript.js">
+        var iconMenu = document.querySelectorAll("div#icone")
+        iconMenu.addEventListener('click', ()=>{
+            let menu = document.getElementById("menu")
+            menu.classList.add('.show')
+            menu.classList.remove('.hide')
+            
+        })</script>
     <script src="all.min.js"></script>
     
 </body>
