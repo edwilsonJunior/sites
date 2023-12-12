@@ -1,4 +1,14 @@
+@font-face {
+    font-family:'minhafonte';
+    src:url("fontes/BalooPaaji-Regular.ttf");}
 *{
     margin: 0;
     padding: 0;
+}
+
+header {
+    background-color: aqua;
+    width: 100vw;
+    height: 100px;
+    font-family:'padrão';
 }
